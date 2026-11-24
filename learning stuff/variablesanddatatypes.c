@@ -4,6 +4,8 @@
 
 //Integers - whole numbers which can be either positive or negative. Defined using char, int, short, long or long long
 //char grade = 'A';
+//char is an integer type in C, but it's commonly used to store a single character.
+//char grade = 'A';
 //short age = 23;
 //int temperature = -5;
 //long population = 800000L;
