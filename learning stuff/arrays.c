@@ -1,0 +1,47 @@
+/*-----ARRAYS-----
+ An array is a collection of variables of the same type
+
+ --defines an array of 10 integers 
+---int numbers[10];
+
+Accessing a number from the array is done using the same syntax.
+ Notice that arrays in C are zero-based, which means that if we defined an array of 
+ size 10, then the array cells 0 through 9 (inclusive) are defined.
+ numbers[10] is not an actual value.
+
+ int numbers[10];
+
+ populate the array 
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
+numbers[3] = 40;
+numbers[4] = 50;
+numbers[5] = 60;
+numbers[6] = 70;
+
+ print the 7th number from the array, which has an index of 6 
+printf("The 7th number in the array is %d", numbers[6]);
+
+Example 
+
+#include <stdio.h>
+
+int main() {
+   TODO: define the grades variable here 
+  int average;
+    int grades[3];
+    
+
+  grades[0] = 80;
+    grades[1] = 85;
+   TODO: define the missing grade
+     so that the average will sum to 85. 
+  grades[2] = 90;
+
+  average = (grades[0] + grades[1] + grades[2]) / 3;
+  printf("The average of the 3 grades is: %d", average);
+
+  return 0;
+}
+*/
